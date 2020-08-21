@@ -482,6 +482,7 @@ Inicio
 .headerInicio {
     width: 100%;
     padding: 2rem 0;
+    border-bottom: 50px solid var(--colorSegundario);
 }
 
 .imgLogo {
@@ -489,6 +490,19 @@ Inicio
     margin: auto;
     width: 200px;
     height: 200px;
+}
+
+.correos {
+    padding-bottom: 2rem;
+}
+
+.btn {
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-family: var(--fuentePrinciapl);
+    font-size: 2rem;
+    background-color: var(--colorSegundario);
+    border-radius: 10px;
 }
 
 .menu {
