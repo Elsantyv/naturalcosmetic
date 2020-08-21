@@ -68,7 +68,7 @@ Header
     top: 0px;
     left: 0px;
     height: 320px;
-    width: 390.5px;
+    width: 100%;
     background-color: rgba(230, 191, 204, 0.9);
     opacity: 0;
     transition: opacity 0.3s;
@@ -221,7 +221,7 @@ Header
     top: 0px;
     left: 0px;
     height: 640px;
-    width: 390.5px;
+    width: 100%;
     background-color: rgba(230, 191, 204, 0.9);
     opacity: 0;
     transition: opacity 0.3s;
@@ -252,7 +252,7 @@ Header
 Home Dispositivos 769px - 1224px
 =============================================*/
 
-@media (min-width: 769px) and (max-width: 1224px) {
+@media (min-width: 769px) and (max-width: 1400px) {
     .contenedorImagenes {
         display: grid;
         grid: repeat(3, 1fr)/repeat(3, 1fr);
