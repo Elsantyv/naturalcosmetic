@@ -566,6 +566,104 @@ nav a:hover {
 }
 
 
+/*=============================================
+Home Dispositivos 481px - 983px
+=============================================*/
+
+@media (min-width: 320px) and (max-width: 983px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .productos {
+        width: 100%;
+        height: auto;
+    }
+    .contenedorProductos {
+        text-align: center;
+        width: 100%;
+    }
+    .contenedorProductos h2 {
+        color: var(--colorPrincipal);
+        font-size: 2rem;
+    }
+    .contenedorProductos p {
+        color: var(--colorSegundario);
+        font-size: 2rem;
+    }
+    .catalogo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .cuadro {
+        width: 300px;
+        height: 500px;
+        margin: 2rem 2rem;
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(230, 191, 204, 1);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(230, 191, 204, 1);
+        box-shadow: 0px 0px 11px 0px rgba(230, 191, 204, 1);
+        padding: 2rem 1rem;
+    }
+    .cuadro img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+/*=============================================
+Home Dispositivos 320px - 480px
+=============================================*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .productos {
+        width: 100%;
+        height: auto;
+    }
+    .contenedorProductos {
+        text-align: center;
+        width: 100%;
+    }
+    .contenedorProductos h2 {
+        color: var(--colorPrincipal);
+        font-size: 2rem;
+    }
+    .contenedorProductos p {
+        color: var(--colorSegundario);
+        font-size: 2rem;
+    }
+    .catalogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .cuadro {
+        width: 300px;
+        height: 500px;
+        margin: 2rem 2rem;
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(230, 191, 204, 1);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(230, 191, 204, 1);
+        box-shadow: 0px 0px 11px 0px rgba(230, 191, 204, 1);
+        padding: 2rem 1rem;
+    }
+    .cuadro img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
 /*================================================
 Mostrar y esconder los productos
 =================================================*/
